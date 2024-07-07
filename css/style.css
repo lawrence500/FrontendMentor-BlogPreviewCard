@@ -45,14 +45,14 @@ main{
 .card-container img{
     border-radius: 14px;
     height: auto;
+    margin-bottom: 6px;
 }
-
 
 
 .card-type{
     background-color: var(--primary-color);
-    width: 82px;
-    padding: 5px;
+    width: 100px;
+    padding: 4px;
     border-radius: 5px;
     text-align: center;
     font-weight: var(--large-font-weight);
@@ -64,6 +64,7 @@ main{
 
 .card-title{
     font-weight: var(--large-font-weight);
+    font-size: 1.4rem;
 }
 
 .card-publisher{
@@ -76,6 +77,7 @@ main{
 .card-description{
     color: var(--grey);
     font-weight: var(--small-font-weight);
+    font-size: 0.9rem;
 }
 
 .card-publisher p{

@@ -15,3 +15,87 @@
 *{
     font-family: var(--defualt-font);
 }
+
+body{
+    background-color: var(--primary-color);
+    min-height: 100dvh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+
+.card-container{
+    width: 336px;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 15px;
+    box-shadow: 8px 8px var(--black);
+    border: 2px solid var(--grey);
+
+}
+
+.card-container img{
+    border-radius: 14px;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card-container{
+        width: 310px;  
+    }
+    
+    .card-container img{
+        width: 310px;
+        height: auto;
+    }
+
+}
+
+.card-type{
+    background-color: var(--primary-color);
+    width: 82px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: var(--large-font-weight);
+}
+
+.card-publisher-date{
+    font-weight: var(--small-font-weight);
+}
+
+.card-title{
+    font-weight: var(--large-font-weight);
+}
+
+.card-publisher{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    margin-top: 30px;
+}
+
+.card-description{
+    color: var(--grey);
+    font-weight: var(--small-font-weight);
+}
+
+.card-publisher p{
+    font-weight: var(--large-font-weight);
+}
+
+.card-publisher img {
+    width: 40px;
+    height: auto;
+}
+
+footer{
+    min-height: 5vh;
+    text-align: center;
+}
